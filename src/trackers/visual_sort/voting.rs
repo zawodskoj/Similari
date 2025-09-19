@@ -4,6 +4,7 @@ use crate::trackers::sort::VotingType;
 use crate::trackers::visual_sort::observation_attributes::VisualObservationAttributes;
 use crate::utils::bbox::Universal2DBox;
 use crate::voting::best::BestFitVotingWithFallback;
+use crate::voting::topn::TopNVotingElt;
 use crate::voting::Voting;
 use itertools::Itertools;
 use log::debug;
